@@ -2,13 +2,13 @@
 
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
-static const unsigned int gappx     = 2;        /* gaps between windows */
+static const unsigned int gappx     = 12;        /* gaps between windows */
 static const unsigned int snap      = 60;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
-static const char *fonts[]          = { "monospace:bold:size=10" };
-static const char dmenufont[]       = "monospace:bold:size=10";
+static const char *fonts[]          = { "JetBrainsMono Nerd Font:bold:size=10" };
+static const char dmenufont[]       = "JetBrainsMono Nerd Font:bold:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -19,7 +19,7 @@ static const char col_cyan2[]        = "#00ffff";
 static const char col_gblue[]        = "#458588";
 static const char col_gorange[]        = "#fe8019";
 static const char col_ggreen[]        = "#00F0A8";
-static const char col_gbg[]        = "#282828";
+static const char col_gbg[]        = "#000000";
 static const char col_gfg[]        = "#ebdbb2";
 
 static const char *colors[][3]      = {
